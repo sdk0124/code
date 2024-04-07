@@ -24,7 +24,7 @@ const express = require("express");
 const app = express();
 
 // routing
-const home = require("./routes/home"); // 안의 js 파일명이 index.js여야 router module을 인식했다.
+const home = require("../routes/home"); // 안의 js 파일명이 index.js여야 router module을 인식했다.
 
 // view setting
 app.set("views", "./views");
